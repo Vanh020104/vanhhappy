@@ -1,0 +1,86 @@
+#info {
+	
+	opacity:0.8;
+	position: absolute;
+	top:5px;
+	right:5px;
+	width:280px;
+	color:#fff;
+	border-radius: 5px;
+	z-index:10
+	
+}
+
+#info p {
+   padding:0 10px;
+}
+
+#info a{ color:#f20a0a; }
+
+/* basic styles for black background and crosshair cursor */
+body {
+	background: black;
+	margin: 0;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+h5{
+   
+    
+   
+    color: rgb(248, 4, 4);
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+}
+.hello{
+    border: 2px solid black;
+    width: 150px;
+    height: 140px;
+    left: 1200px;
+    position: relative;
+  
+    bottom: 700px;
+   
+    background: url(https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-cat-christmas-avatar-justicon-lineal-color-justicon.png);
+}
+.cat{
+    border: 2px solid black;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    bottom: 540px;
+    background: url(https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-cat-christmas-avatar-justicon-lineal-color-justicon.png);
+}
+h6{
+    color: #f20a0a;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+    top: -320px;
+    left: 7px;
+    font-size: 13px;
+}
+.btn{
+    border: 2px solid black;
+    width: 120px;
+    height: 130px;
+    background: url(https://www.emojiall.com/images/60/microsoft-teams/1f389.png);
+    position: relative;
+    bottom: 500px;
+    left: 40px;
+}
+.th{
+    border: 2px solid black;
+    width: 120px;
+    height: 130px;
+    background: url(https://www.emojiall.com/images/60/microsoft-teams/1f389.png);
+    position: relative;
+    bottom: 640px;
+    left: 1200px;
+}
